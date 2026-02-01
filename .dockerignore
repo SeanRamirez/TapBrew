@@ -1,0 +1,48 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tests
+tests/
+htmlcov/
+.coverage
+.pytest_cache/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Notebooks
+notebooks/
+*.ipynb
+
+# Data (handled separately)
+data/bronze/*
+data/silver/*
+data/gold/*
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
